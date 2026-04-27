@@ -28,10 +28,10 @@ export default function Home() {
   ];
 
   const stats = [
-    { value: "500+", label: "Success Stories" },
-    { value: "99%", label: "Retention Rate" },
-    { value: "Pan-India", label: "Service Network" },
-    { value: "12+", label: "Years of Trust" },
+    { value: "25+", label: "Happy Clients" },
+    { value: "100%", label: "Dedication" },
+    { value: "Sivakasi", label: "HQ Base" },
+    { value: "2024", label: "Founded" },
   ];
 
   const testimonials = [

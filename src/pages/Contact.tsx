@@ -13,7 +13,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate API call
     setTimeout(() => {
       setIsSubmitting(false);
@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       <section className="pt-40 pb-24 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn className="text-center max-w-3xl mx-auto mb-16">
@@ -39,11 +39,11 @@ export default function Contact() {
           </FadeIn>
 
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 bg-card rounded-3xl shadow-xl border border-border/50 overflow-hidden">
-            
+
             {/* Contact Information (Left Column) */}
             <div className="lg:col-span-2 bg-secondary text-white p-10 lg:p-12 flex flex-col justify-between relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl -mr-20 -mt-20"></div>
-              
+
               <div className="relative z-10">
                 <h3 className="text-3xl font-display font-bold mb-2">Contact Info</h3>
                 <p className="text-white/70 mb-12">Fill out the form and our team will get back to you within 24 hours.</p>
@@ -56,20 +56,20 @@ export default function Contact() {
                       <div className="text-white/80">+91 98848-32321</div>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <Mail className="w-6 h-6 text-primary shrink-0" />
                     <div>
                       <div className="font-semibold mb-1">Email</div>
-                      <div className="text-white/80">info@techwaysolution.com</div>
+                      <div className="text-white/80">info@techway-solution.in</div>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-start gap-4">
                     <MapPin className="w-6 h-6 text-primary shrink-0" />
                     <div>
                       <div className="font-semibold mb-1">Office</div>
-                      <div className="text-white/80">RSS Nagar<br/>Sithurajapuram, Sivakasi 626189<br/>Tamilnadu, India</div>
+                      <div className="text-white/80">RSS Nagar<br />Sithurajapuram, Sivakasi 626189<br />Tamilnadu, India</div>
                     </div>
                   </div>
                 </div>
@@ -82,9 +82,9 @@ export default function Contact() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label htmlFor="firstName" className="text-sm font-semibold text-foreground">First Name</label>
-                    <input 
-                      type="text" 
-                      id="firstName" 
+                    <input
+                      type="text"
+                      id="firstName"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
                       placeholder="John"
@@ -92,9 +92,9 @@ export default function Contact() {
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-semibold text-foreground">Last Name</label>
-                    <input 
-                      type="text" 
-                      id="lastName" 
+                    <input
+                      type="text"
+                      id="lastName"
                       required
                       className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
                       placeholder="Doe"
@@ -104,9 +104,9 @@ export default function Contact() {
 
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-semibold text-foreground">Email Address</label>
-                  <input 
-                    type="email" 
-                    id="email" 
+                  <input
+                    type="email"
+                    id="email"
                     required
                     className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all"
                     placeholder="john@example.com"
@@ -115,7 +115,7 @@ export default function Contact() {
 
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-semibold text-foreground">Subject</label>
-                  <select 
+                  <select
                     id="subject"
                     required
                     className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all appearance-none"
@@ -130,8 +130,8 @@ export default function Contact() {
 
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-semibold text-foreground">Message</label>
-                  <textarea 
-                    id="message" 
+                  <textarea
+                    id="message"
                     rows={4}
                     required
                     className="w-full px-4 py-3 rounded-xl bg-background border-2 border-border text-foreground focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all resize-none"

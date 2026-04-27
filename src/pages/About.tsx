@@ -45,11 +45,11 @@ export default function About() {
               </p>
               <div className="flex gap-4">
                 <div className="border-l-4 border-primary pl-4 py-1">
-                  <div className="font-bold text-2xl text-foreground">2018</div>
+                  <div className="font-bold text-2xl text-foreground">2024</div>
                   <div className="text-sm text-muted-foreground uppercase font-bold tracking-wider">Founded</div>
                 </div>
                 <div className="border-l-4 border-primary pl-4 py-1">
-                  <div className="font-bold text-2xl text-foreground">50+</div>
+                  <div className="font-bold text-2xl text-foreground">10+</div>
                   <div className="text-sm text-muted-foreground uppercase font-bold tracking-wider">Team Members</div>
                 </div>
               </div>
