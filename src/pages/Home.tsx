@@ -36,20 +36,20 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Rajesh Khanna",
-      role: "Director, Vistara Enterprises",
+      name: "Krishna Ram",
+      role: "Director, SS Enterprises",
       quote: "Techway Solution delivered a portal that truly understands the scale of Indian retail. Their automation tools saved us thousands of hours.",
       avatar: "RK"
     },
     {
-      name: "Ananya Sharma",
-      role: "Founder, GreenLeaf Digital",
+      name: "Siva Balamurugan",
+      role: "Founder, National Footwear",
       quote: "The mobile app they built is stunning. It works flawlessly across all devices, even on slower networks, which was critical for us.",
       avatar: "AS"
     },
     {
-      name: "Vikram Malhotra",
-      role: "CTO, Bharat Logistics",
+      name: "Kishore Kumar",
+      role: "Owner, LION Wholesaler",
       quote: "Highly professional team with deep technical expertise. They are our go-to partner for all digital innovations.",
       avatar: "VM"
     }
@@ -58,14 +58,14 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-secondary">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary/90 to-primary/20"></div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <FadeIn>
@@ -74,19 +74,19 @@ export default function Home() {
                 Empowering Digital India
               </div>
             </FadeIn>
-            
+
             <FadeIn delay={0.1}>
               <h1 className="text-5xl md:text-7xl font-bold text-white leading-[1.1] mb-6">
                 Your Strategic Partner for <span className="text-primary">Digital Transformation</span>
               </h1>
             </FadeIn>
-            
+
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl">
                 We craft high-end websites, powerful mobile apps, and smart automations that drive growth for modern Indian enterprises.
               </p>
             </FadeIn>
-            
+
             <FadeIn delay={0.3} className="flex flex-wrap gap-4">
               <Link href="/contact">
                 <Button size="lg" className="group h-14 px-8 bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl shadow-primary/20">
@@ -144,7 +144,7 @@ export default function Home() {
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                 As a homegrown Indian technology firm, we combine global standards with a deep understanding of the local business landscape. We don't just deliver products; we build long-term digital foundations.
               </p>
-              
+
               <ul className="space-y-5 mb-10">
                 {[
                   "Custom-crafted solutions for unique business challenges",
@@ -160,14 +160,14 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
-              
+
               <Link href="/about">
                 <Button variant="default" size="lg" className="h-14 px-10 rounded-full text-lg shadow-lg">
                   Learn Our Story
                 </Button>
               </Link>
             </FadeIn>
-            
+
             <FadeIn direction="left" className="grid grid-cols-2 gap-6">
               {stats.map((stat, idx) => (
                 <div key={idx} className="bg-card p-10 rounded-[2rem] shadow-sm border border-border/50 flex flex-col items-center justify-center text-center hover:-translate-y-2 hover:border-primary/20 transition-all duration-300">
@@ -219,7 +219,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
           <div className="absolute -top-24 -right-24 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
-          
+
           <div className="max-w-4xl mx-auto py-20 text-center relative z-10 px-8">
             <FadeIn>
               <h2 className="text-4xl md:text-6xl font-bold text-white mb-8">Ready to Scale Your Success?</h2>
